@@ -11,6 +11,7 @@ STEP 3: Create a base case for termination of the function. STEP 4: Create a rec
 STEP 5: Print the result. STEP 6: Stop.
 
 Program:
+
 reg no:212223070012
 name:Lithick Kumar M N
 def sum_digit(n):
