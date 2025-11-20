@@ -16,7 +16,7 @@ STEP 6: Stop.
 ### Program:
 ```
 reg no:212223070012
-name: Lithick Kumar M N
+name:Lithick Kumar M N
 def series(x,n):
          if n==0:
             return 1
