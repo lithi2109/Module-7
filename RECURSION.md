@@ -1,7 +1,6 @@
 EX: 7.1 RECURSION
-
-Aim: To Write a Python Program to find the sum of all digits in a number using recursion
-Algorithm:
+### Aim: To Write a Python Program to find the sum of all digits in a number using recursion
+### Algorithm:
 STEP 1: Start.
 
 STEP 2: Define a function.
@@ -10,8 +9,8 @@ STEP 3: Create a base case for termination of the function. STEP 4: Create a rec
 
 STEP 5: Print the result. STEP 6: Stop.
 
-Program:
-
+### Program:
+```
 reg no:212223070012
 name:Lithick Kumar M N
 def sum_digit(n):
@@ -22,9 +21,9 @@ def sum_digit(n):
 n = int(input())
 sum = sum_digit(n)
 print(sum)
-Output:
-<img width="821" height="52" alt="439812625-f8a856c5-040c-441e-b28e-9f3882bd6410" src="https://github.com/user-attachments/assets/9f682ac3-0312-4dbd-bd51-be008447879b" />
+```
+### Output:
+![image](https://github.com/user-attachments/assets/f8a856c5-040c-441e-b28e-9f3882bd6410)
 
 
-Result:
-Thus, the given program is implemented and executed successfully .
+### Result: Thus, the given program is implemented and executed successfully .
