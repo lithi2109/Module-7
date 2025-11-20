@@ -19,8 +19,8 @@ STEP 7: Stop.
 
 ### Program:
 ```
-reg no:212223070023
-name:Saran Krishna P S 
+reg no:212223070012
+name:Lithick Kumar M N
 def is_palindrome(word):
       if len(word)<1:
             return True
