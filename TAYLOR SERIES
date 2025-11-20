@@ -1,0 +1,34 @@
+EX: 7.3 TAYLOR SERIES
+
+###Aim: To python program to evaluate the series using recursion by collecting the x and n values from the user.
+### ALGORITHM:
+STEP 1: Start.
+
+STEP 2: Create a variable x and n.
+
+STEP 3: Get the values of x and n from user.
+
+STEP 4: Create a base case and recursive case to calculate the result.
+
+STEP 5: Print the result.
+
+STEP 6: Stop.
+### Program:
+```
+reg no:212223070012
+name: Lithick Kumar M N
+def series(x,n):
+         if n==0:
+            return 1
+         else:
+            return x**n/n+series(x,n-1)
+x = int(input())
+n = int(input())
+print(series(x,n))
+```
+### Output:
+![image](https://github.com/user-attachments/assets/1a43172d-a781-4ed3-a521-0e2442554b40)
+
+
+ 
+### Result: Thus, the given program is implemented and executed successfully .
