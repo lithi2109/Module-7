@@ -1,28 +1,32 @@
-# 🔁 Recursion:Palindrome Checker Using Recursion in Python
+ EX: 7.2 TYPES OF RECURSIONS
+### Aim: To Write a Python Program to find the sum of all digits in a number using recursion
+### Algorithm:
+STEP 1: Start.
 
-## 🎯 AIM:
-To write a Python program to check whether a given string is a **palindrome** using **recursion**.
+STEP 2: Define a function.
 
----
+STEP 3: Create a recursive case in the first line of function for head recursion.
 
-## 🧠 ALGORITHM:
+STEP 4: Print the result.
 
-1. **Start**
-2. Define a recursive function `is_palindrome(word)`
-   - **Base Case:** If the string length is less than 1, return `True`
-   - **Recursive Case:** If the first and last characters match, call the function recursively on the substring without first and last characters
-   - Else, return `False`
-3. Get input from the user
-4. Call the recursive function
-5. Print whether the string is a palindrome
-6. **Stop**
+STEP 5: Stop.
+### Program:
+```
+reg no:212223070012
+name:Lithick Kumar M N
+def fun(n):
+     if (n >0):
+          fun(n - 2)
+      print(n-1, end=" ")
+x = int(input())
+if(x%2==0):
+     fun(x)
+else:
+     fun(x+1)
 
----
+```
+### Output:
+![image](https://github.com/user-attachments/assets/2f834f51-5958-4f87-8408-664802f90d1c)
 
-## 💻 PROGRAM:
-ADD CODE HERE
-
-## OUTPUT
-
-## RESULT
-
+###Result: Thus, the given program is implemented and executed successfully.
+ 
